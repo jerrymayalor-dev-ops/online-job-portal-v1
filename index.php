@@ -3,31 +3,29 @@
 <head>
 	<meta charset="utf-8">
 	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<title>Responsive Bootstrap Theme</title>
+	<title>Home</title>
+	<link rel="icon" type="image/x-icon" href="/img/site-logo.png">
 	<link href="bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="img/site-logo.png">
 	<link href="style.css" rel="stylesheet">
+	
 </head>
 <body>
 	<!--- Navigation -->
 	<nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="index.php"><img src="img/bootstrap.png"></a> <button class="navbar-toggler" data-target="#navbarResponsive" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+			<a class="navbar-brand" href="index.php"><img src="img/site-logo.png"></a> <button class="navbar-toggler" data-target="#navbarResponsive" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link active" href="index.php">Home</a>
+					<li class="nav-item mx-1">
+						<a class="nav-link active" href="index.php" >Home</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="portfolio.php">Portfolio</a>
+					<li class="nav-item mx-1">
+						<a class="nav-link btn btn-success text-white" data-toggle="modal" data-target="#signinModal">Sign In</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="pricing.php">Pricing</a>
+					<li class="nav-item mx-1">
+						<a class="nav-link btn btn-danger text-white" href="signup.php">Sign Up</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="team.php">Team</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="contact-us.php">Contact Us</a>
 					</li>
 				</ul>
 			</div>
@@ -105,17 +103,13 @@
 		<div class="container">
 			<div class="row text-center py-5">
 				<div class="col-md-4">
-					<img src="img/bootstrap.png">
-					<p>At our core is a collection of design and development solutions that represent everything your business needs to compete in the modern marketplace.</p>
+					<img src="img/site-logo.png" class="w-25">
 				</div>
 				<div class="col-md-4">
 					<h3 class="text-center">CONTACT INFO</h3><strong>Contact Info</strong>
-					<p>(888) 888-8888<br>
-					email@nuno.com</p>
 				</div>
 				<div class="col-md-4 pb-5">
 					<h3 class="text-center">CONNECT WITH US</h3><br>
-					<a class="btn btn-outline-light btn-lg" href="#">SEND US AN EMAIL</a>
 				</div>
 			</div><!--- End of Row -->
 		</div><!--- End of Container -->
@@ -131,7 +125,41 @@
 </html>
 
 
-<!--- Check out my courses! -->
-<div class="udemy-course" style="position: fixed; bottom: 0; right: 0; margin-bottom: -5px; z-index: 100;">
-	<a href="https://w3newbie.com/courses" target="_blank" style="z-index: 999!important; cursor: pointer!important;"><img src="https://www.w3newbie.com/wp-content/uploads/nuno-course-banner.png" style="max-width: 100%; min-width: 100%;"></a>
-</div>
+<!-- Sign In Modal -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="signinModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white text-uppercase">
+			Sign In
+			<button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+          
+        </div>
+		<form action="form-actions/verify-account.php" method="POST">
+        
+		<div class="modal-body">
+				<div class="form-group">
+					<label for="email">Email address:</label>
+					<input type="email" class="form-control" id="email">
+				</div>
+				<div class="form-group">
+					<label for="pwd">Password:</label>
+					<input type="password" class="form-control" id="pwd">
+				</div>
+				<!-- <div class="checkbox">
+					<label><input type="checkbox"> Remember me</label>
+				</div> -->
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				<button type="submit" class="btn btn-primary" name="signin">Sign In</button>
+			</div>
+		</div>
+	
+		</form>
+    </div>
+  </div>
+  
