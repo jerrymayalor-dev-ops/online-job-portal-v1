@@ -18,13 +18,13 @@
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item mx-1">
-						<a class="nav-link active" href="index.php" >Home</a>
+						<a class="nav-link text-white" href="index.php" >Home</a>
 					</li>
 					<li class="nav-item mx-1">
-						<a class="nav-link btn btn-success text-white" data-toggle="modal" data-target="#signinModal">Sign In</a>
+						<a class="nav-link text-white btn " href="#" data-toggle="modal" data-target="#signinModal">Sign In</a>
 					</li>
 					<li class="nav-item mx-1">
-						<a class="nav-link btn btn-danger text-white" href="signup.php">Sign Up</a>
+						<a class="nav-link btn btn-danger text-white text-uppercase" href="#" data-toggle="modal" data-target="#signupModal">post job now!</a>
 					</li>
 					</li>
 				</ul>
@@ -163,3 +163,42 @@
     </div>
   </div>
   
+
+<!-- Sigup In Modal -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="signupModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white text-uppercase">
+			Sign Up
+			<button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+          
+        </div>
+		<form action="form-actions/verify-account.php" method="POST">
+        
+		<div class="modal-body">
+				<div class="form-group">
+					<label for="email">Email address:</label>
+					<input type="email" class="form-control" id="email">
+				</div>
+				<div class="form-group">
+					<label for="pwd">Password:</label>
+					<input type="password" class="form-control" id="pwd">
+				</div>
+				<!-- <div class="checkbox">
+					<label><input type="checkbox"> Remember me</label>
+				</div> -->
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				<button type="submit" class="btn btn-primary" name="signin">Sign In</button>
+			</div>
+		</div>
+	
+		</form>
+    </div>
+  </div>
+    
