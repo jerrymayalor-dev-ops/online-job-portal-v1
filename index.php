@@ -50,12 +50,17 @@
 				</div>
 			</div>
 		</div>
-		<h3 class="text-center font-weight-bold text-uppercase text-primary">Featured Jobs</h3>
-		<div class="row border border-primary p-5">
+		<div class="row">
+			<div class="col p-5 mt-5">
+				<h3 class="text-center font-weight-bold text-uppercase text-dark">Featured Jobs</h3>
+			</div>
+		</div>
+	
+		<div class="row p-5">
 			<div class="col-md-2">
 				<div class="card" style="width:100%">
 					<div class="card-body">
-						<h5 class="card-title text-primary font-weight-bold">Job Position</h5>
+						<h5 class="card-title text-dark font-weight-bold">Job Position</h5>
 						<h6 class="card-subtitle mb-2 text-muted">Company</h6>
 						<p class="card-text">Salary</p>
 						<a href="#" class="card-link text-danger">Read More<i class="fa-solid fa-angles-right ml-3"></i></a>
@@ -65,7 +70,7 @@
 			<div class="col-md-2">
 				<div class="card" style="width:100%">
 					<div class="card-body">
-						<h5 class="card-title text-primary font-weight-bold">Job Position</h5>
+						<h5 class="card-title text-dark font-weight-bold">Job Position</h5>
 						<h6 class="card-subtitle mb-2 text-muted">Company</h6>
 						<p class="card-text">Salary</p>
 						<a href="#" class="card-link text-danger">Read More<i class="fa-solid fa-angles-right ml-3"></i></a>
@@ -75,7 +80,7 @@
 			<div class="col-md-2">
 				<div class="card" style="width:100%">
 					<div class="card-body">
-						<h5 class="card-title text-primary font-weight-bold">Job Position</h5>
+						<h5 class="card-title text-dark font-weight-bold">Job Position</h5>
 						<h6 class="card-subtitle mb-2 text-muted">Company</h6>
 						<p class="card-text">Salary</p>
 						<a href="#" class="card-link text-danger">Read More<i class="fa-solid fa-angles-right ml-3"></i></a>
@@ -85,7 +90,7 @@
 			<div class="col-md-2">
 				<div class="card" style="width:100%">
 					<div class="card-body">
-						<h5 class="card-title text-primary font-weight-bold">Job Position</h5>
+						<h5 class="card-title text-dark font-weight-bold">Job Position</h5>
 						<h6 class="card-subtitle mb-2 text-muted">Company</h6>
 						<p class="card-text">Salary</p>
 						<a href="#" class="card-link text-danger">Read More<i class="fa-solid fa-angles-right ml-3"></i></a>
@@ -95,7 +100,7 @@
 			<div class="col-md-2">
 				<div class="card" style="width:100%">
 					<div class="card-body">
-						<h5 class="card-title text-primary font-weight-bold">Job Position</h5>
+						<h5 class="card-title text-dark font-weight-bold">Job Position</h5>
 						<h6 class="card-subtitle mb-2 text-muted">Company</h6>
 						<p class="card-text">Salary</p>
 						<a href="#" class="card-link text-danger">Read More<i class="fa-solid fa-angles-right ml-3"></i></a>
@@ -105,7 +110,7 @@
 			<div class="col-md-2">
 				<div class="card" style="width:100%">
 					<div class="card-body">
-						<h5 class="card-title text-primary font-weight-bold">Job Position</h5>
+						<h5 class="card-title text-dark font-weight-bold">Job Position</h5>
 						<h6 class="card-subtitle mb-2 text-muted">Company</h6>
 						<p class="card-text">Salary</p>
 						<a href="#" class="card-link text-danger">Read More<i class="fa-solid fa-angles-right ml-3"></i></a>
@@ -113,18 +118,70 @@
 				</div>
 			</div>
 		</div>
-		<div class="row border border-primary p-5">
-			<div class="col border border-secondary py-5">
-				Featured Industries
+		
+		<div class="row">
+			<div class="col p-5 mt-5">
+				<h3 class="text-center font-weight-bold text-uppercase text-dark">	Featured Companies</h3>
 			</div>
-
 		</div>
-		<div class="row border border-primary p-5">
-			<div class="col border border-secondary py-5">
-				Featured Comapnies
+	
+		<div class="row p-5">
+			<div class="col-md-2">
+				<div class="card" style="width:100%">
+					<img class="card-img-top card-header bg-primary" src="img/site-logo.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title text-dark font-weight-bold">Company name</h5>
+						<a href="#" class="card-link text-danger">Read More<i class="fa-solid fa-angles-right ml-3"></i></a>
+					</div>
+				</div>
 			</div>
+			<div class="col-md-2">
+				<div class="card" style="width:100%">
+					<img class="card-img-top card-header bg-primary" src="img/site-logo.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title text-dark font-weight-bold">Company name</h5>
+						<a href="#" class="card-link text-danger">Read More<i class="fa-solid fa-angles-right ml-3"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="card" style="width:100%">
+					<img class="card-img-top card-header bg-primary" src="img/site-logo.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title text-dark font-weight-bold">Company name</h5>
+						<a href="#" class="card-link text-danger">Read More<i class="fa-solid fa-angles-right ml-3"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="card" style="width:100%">
+					<img class="card-img-top card-header bg-primary" src="img/site-logo.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title text-dark font-weight-bold">Company name</h5>
+						<a href="#" class="card-link text-danger">Read More<i class="fa-solid fa-angles-right ml-3"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="card" style="width:100%">
+					<img class="card-img-top card-header bg-primary" src="img/site-logo.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title text-dark font-weight-bold">Company name</h5>
+						<a href="#" class="card-link text-danger">Read More<i class="fa-solid fa-angles-right ml-3"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="card" style="width:100%">
+					<img class="card-img-top card-header bg-primary" src="img/site-logo.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title text-dark font-weight-bold">Company name</h5>
+						<a href="#" class="card-link text-danger">Read More<i class="fa-solid fa-angles-right ml-3"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
 
-		</div>	
 	</div>
 	<!--- End Main Section -->
 
