@@ -12,6 +12,33 @@ body {
 }
 
 /* Sidebar */
-.col-md-2.sidebar-wrap {
+/* .col-md-2.sidebar-wrap {
   height: 768px;
+} */
+
+.hero{
+  background: linear-gradient(to top, rgba(53, 53, 53, .5), rgb(53, 53, 53, .5) ), url("img/hero-bg.jpg") no-repeat top center;
+/* background-image: url("img/hero-bg.jpg"); */
+  width: 100%;
+  height: 750px; 
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
+
+.searchForm input, .searchForm button{
+  font-size: 18px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+} 
+.searchForm input{
+  height: 75px;
+  width: 350px !important;
+  border-radius: none !important;
+}
+
+.searchForm button{
+  height: 75px;
+  width: 200px;
+  border:none;
 }

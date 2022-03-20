@@ -8,12 +8,13 @@
 	<link href="bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="icon" type="image/x-icon" href="img/site-logo.png">
 	<link href="style.css" rel="stylesheet">
+	 <!-- Place your kit's code here -->
+	 <script src="https://kit.fontawesome.com/ac574313ed.js" crossorigin="anonymous"></script>
 	
 </head>
 <body>
 	<!--- Start Header Navigation Menu -->
-	<header class="">
-		<nav class="navbar navbar-light bg-white navbar-expand-md shadow p-3">
+		<nav class="navbar navbar-light bg-white navbar-expand-md shadow p-3 sticky-top">
 			<div class="container-fluid">
 				<a class="navbar-brand font-weight-bold" href="index.php">Online Municipal Job Opportunities</a> <button class="navbar-toggler" data-target="#navbarResponsive" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
 				<div class="collapse navbar-collapse" id="navbarResponsive">
@@ -32,31 +33,109 @@
 				</div>
 			</div>
 		</nav>
-	</header>
 	<!--- End Header Navigation Menu -->
 
 	<!--- Main Section  -->
-	<div class="main">
-		<div class="col">
-			Slider
+	<div class=".container-fluid">
+	
+		<div class="row">
+			<div class="col bg-secondary">
+				<div class="hero d-flex justify-content-center align-items-center ">
+					<form class="form-inline searchForm">
+						<div class="form-group">
+							<input type="text" class="form-control" id="inputSearch" placeholder="Search Job Here">
+						</div>
+						<button type="submit" class="btn btn-primary " name="serchJob"><i class="fa-solid fa-magnifying-glass mr-3"></i>Search</button>
+					</form>
+				</div>
+			</div>
 		</div>
-		<div class="col">
-			Featured Jobs
+		<h3 class="text-center font-weight-bold text-uppercase text-primary">Featured Jobs</h3>
+		<div class="row border border-primary p-5">
+			<div class="col-md-2">
+				<div class="card" style="width:100%">
+					<div class="card-body">
+						<h5 class="card-title text-primary font-weight-bold">Job Position</h5>
+						<h6 class="card-subtitle mb-2 text-muted">Company</h6>
+						<p class="card-text">Salary</p>
+						<a href="#" class="card-link text-danger">Read More<i class="fa-solid fa-angles-right ml-3"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="card" style="width:100%">
+					<div class="card-body">
+						<h5 class="card-title text-primary font-weight-bold">Job Position</h5>
+						<h6 class="card-subtitle mb-2 text-muted">Company</h6>
+						<p class="card-text">Salary</p>
+						<a href="#" class="card-link text-danger">Read More<i class="fa-solid fa-angles-right ml-3"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="card" style="width:100%">
+					<div class="card-body">
+						<h5 class="card-title text-primary font-weight-bold">Job Position</h5>
+						<h6 class="card-subtitle mb-2 text-muted">Company</h6>
+						<p class="card-text">Salary</p>
+						<a href="#" class="card-link text-danger">Read More<i class="fa-solid fa-angles-right ml-3"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="card" style="width:100%">
+					<div class="card-body">
+						<h5 class="card-title text-primary font-weight-bold">Job Position</h5>
+						<h6 class="card-subtitle mb-2 text-muted">Company</h6>
+						<p class="card-text">Salary</p>
+						<a href="#" class="card-link text-danger">Read More<i class="fa-solid fa-angles-right ml-3"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="card" style="width:100%">
+					<div class="card-body">
+						<h5 class="card-title text-primary font-weight-bold">Job Position</h5>
+						<h6 class="card-subtitle mb-2 text-muted">Company</h6>
+						<p class="card-text">Salary</p>
+						<a href="#" class="card-link text-danger">Read More<i class="fa-solid fa-angles-right ml-3"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="card" style="width:100%">
+					<div class="card-body">
+						<h5 class="card-title text-primary font-weight-bold">Job Position</h5>
+						<h6 class="card-subtitle mb-2 text-muted">Company</h6>
+						<p class="card-text">Salary</p>
+						<a href="#" class="card-link text-danger">Read More<i class="fa-solid fa-angles-right ml-3"></i></a>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="col">
-			Featured Industries
+		<div class="row border border-primary p-5">
+			<div class="col border border-secondary py-5">
+				Featured Industries
+			</div>
+
 		</div>
-		<div class="col">
-			Featured Comapnies
-		</div>
-	</div>	
+		<div class="row border border-primary p-5">
+			<div class="col border border-secondary py-5">
+				Featured Comapnies
+			</div>
+
+		</div>	
+	</div>
 	<!--- End Main Section -->
 
 
 	<!--- Start Footer -->
-	<footer>
-]		footer here
-	</footer>
+	<div class="container-fluid">
+		<footer>
+			footer here
+		</footer>
+
+	</div>
 	<!--- End of Footer -->
 
 <!--- Script Source Files -->
@@ -67,77 +146,3 @@
 </body>
 </html>
 
-
-<!-- Sign In Modal -->
-  <div class="modal fade" id="signinModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header bg-primary text-white text-uppercase">
-			Sign In
-			<button type="button" class="close text-white" data-dismiss="modal">&times;</button>
-          
-        </div>
-		<form action="form-actions/verify-account.php" method="POST">
-        
-		<div class="modal-body">
-				<div class="form-group">
-					<label for="email">Email address:</label>
-					<input type="email" class="form-control" id="email">
-				</div>
-				<div class="form-group">
-					<label for="pwd">Password:</label>
-					<input type="password" class="form-control" id="pwd">
-				</div>
-				<!-- <div class="checkbox">
-					<label><input type="checkbox"> Remember me</label>
-				</div> -->
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				<button type="submit" class="btn btn-primary" name="signin">Sign In</button>
-			</div>
-		</div>
-	
-		</form>
-    </div>
-  </div>
-  
-
-<!-- Sigup In Modal -->
-  <div class="modal fade" id="signupModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header bg-primary text-white text-uppercase">
-			Sign Up
-			<button type="button" class="close text-white" data-dismiss="modal">&times;</button>
-          
-        </div>
-		<form action="form-actions/verify-account.php" method="POST">
-        
-		<div class="modal-body">
-				<div class="form-group">
-					<label for="email">Email address:</label>
-					<input type="email" class="form-control" id="email">
-				</div>
-				<div class="form-group">
-					<label for="pwd">Password:</label>
-					<input type="password" class="form-control" id="pwd">
-				</div>
-				<!-- <div class="checkbox">
-					<label><input type="checkbox"> Remember me</label>
-				</div> -->
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				<button type="submit" class="btn btn-primary" name="signin">Sign In</button>
-			</div>
-		</div>
-	
-		</form>
-    </div>
-  </div>
-    
