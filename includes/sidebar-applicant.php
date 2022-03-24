@@ -11,6 +11,3 @@
         </li>
     </ul>
 </div>
-<div class="col-md-10 pt-3">
-    <h1>Content here</h1>
-</div>

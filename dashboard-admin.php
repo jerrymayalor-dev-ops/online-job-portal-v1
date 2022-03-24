@@ -16,12 +16,153 @@
 		</div>
 	</nav>
     <div class="d-flex row">
-            <?php include 'includes/sidebar-admin.php' ?>
+        <!-- Sidebar Here -->
+        <?php include 'includes/sidebar-admin.php' ?>
+
+        <!-- Main Content Here -->
+        <div class="col-md-10 pt-3">
+            <div class="table-wrap">
+                <table id="example" class="table table-striped table-bordered" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Position</th>
+                            <th>Office</th>
+                            <th>Age</th>
+                            <th>Start date</th>
+                            <th>Salary</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Tiger Nixon</td>
+                            <td>System Architect</td>
+                            <td>Edinburgh</td>
+                            <td>61</td>
+                            <td>2011/04/25</td>
+                            <td>$320,800</td>
+                        </tr>
+                        <tr>
+                            <td>Tiger Nixon</td>
+                            <td>System Architect</td>
+                            <td>Edinburgh</td>
+                            <td>61</td>
+                            <td>2011/04/25</td>
+                            <td>$320,800</td>
+                        </tr>
+                        <tr>
+                            <td>Tiger Nixon</td>
+                            <td>System Architect</td>
+                            <td>Edinburgh</td>
+                            <td>61</td>
+                            <td>2011/04/25</td>
+                            <td>$320,800</td>
+                        </tr>
+                    
+                        </tr>
+                        <tr>
+                            <td>Tiger Nixon</td>
+                            <td>System Architect</td>
+                            <td>Edinburgh</td>
+                            <td>61</td>
+                            <td>2011/04/25</td>
+                            <td>$320,800</td>
+                        </tr>
+                    
+                        </tr>
+                        <tr>
+                            <td>Tiger Nixon</td>
+                            <td>System Architect</td>
+                            <td>Edinburgh</td>
+                            <td>61</td>
+                            <td>2011/04/25</td>
+                            <td>$320,800</td>
+                        </tr>
+                    
+                        </tr>
+                        <tr>
+                            <td>Tiger Nixon</td>
+                            <td>System Architect</td>
+                            <td>Edinburgh</td>
+                            <td>61</td>
+                            <td>2011/04/25</td>
+                            <td>$320,800</td>
+                        </tr>
+                    
+                        </tr>
+                        <tr>
+                            <td>Tiger Nixon</td>
+                            <td>System Architect</td>
+                            <td>Edinburgh</td>
+                            <td>61</td>
+                            <td>2011/04/25</td>
+                            <td>$320,800</td>
+                        </tr>
+                    
+                        </tr>
+                        <tr>
+                            <td>Tiger Nixon</td>
+                            <td>System Architect</td>
+                            <td>Edinburgh</td>
+                            <td>61</td>
+                            <td>2011/04/25</td>
+                            <td>$320,800</td>
+                        </tr>
+                    
+                        </tr>
+                        <tr>
+                            <td>Tiger Nixon</td>
+                            <td>System Architect</td>
+                            <td>Edinburgh</td>
+                            <td>61</td>
+                            <td>2011/04/25</td>
+                            <td>$320,800</td>
+                        </tr>
+                    
+                        </tr>
+                        <tr>
+                            <td>Tiger Nixon</td>
+                            <td>System Architect</td>
+                            <td>Edinburgh</td>
+                            <td>61</td>
+                            <td>2011/04/25</td>
+                            <td>$320,800</td>
+                        </tr>
+                    
+                        </tr>
+                        <tr>
+                            <td>Tiger Nixon</td>
+                            <td>System Architect</td>
+                            <td>Edinburgh</td>
+                            <td>61</td>
+                            <td>2011/04/25</td>
+                            <td>$320,800</td>
+                        </tr>
+                    
+                    </tbody>
+                    <!-- <tfoot>
+                        <tr>
+                            <th>Name</th>
+                            <th>Position</th>
+                            <th>Office</th>
+                            <th>Age</th>
+                            <th>Start date</th>
+                            <th>Salary</th>
+                        </tr>
+                    </tfoot> -->
+                </table>
+            </div>
+        </div>
     </div>
 
 
   <script src="js/jquery-3.3.1.min.js"></script>    
   <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+    <script  src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="js/dataTable-script.js"></script>
+
 </body>
 </html>
 

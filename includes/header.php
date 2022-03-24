@@ -10,6 +10,8 @@
 	<link href="style.css" rel="stylesheet">
 	 <!-- Place your kit's code here -->
 	 <script src="https://kit.fontawesome.com/ac574313ed.js" crossorigin="anonymous"></script>
+
+	 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css"> 
 	
 </head>
 <body>
