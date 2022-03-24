@@ -97,16 +97,7 @@
     <div class="row p-5 featuredCompanies">
         <div class="col-md-2">
             <div class="card" style="width:100%">
-                <img class="card-img-top card-header bg-primary" src="img/site-logo.png" alt="Card image cap">
-                <div class="card-body">
-                    <h6 class="card-title text-dark font-weight-bold">Company name</h6>
-                    <a href="#" class="card-link text-danger">Read More<i class="fa-solid fa-angles-right ml-3"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-2">
-            <div class="card" style="width:100%">
-                <img class="card-img-top card-header bg-primary" src="img/site-logo.png" alt="Card image cap">
+                <img class="card-img-top card-header bg-primary" src="images/site-logo.png" alt="Card image cap">
                 <div class="card-body">
                     <h6 class="card-title text-dark font-weight-bold">Company name</h6>
                     <a href="#" class="card-link text-danger">Read More<i class="fa-solid fa-angles-right ml-1"></i></a>
@@ -115,7 +106,7 @@
         </div>
         <div class="col-md-2">
             <div class="card" style="width:100%">
-                <img class="card-img-top card-header bg-primary" src="img/site-logo.png" alt="Card image cap">
+                <img class="card-img-top card-header bg-primary" src="images/site-logo.png" alt="Card image cap">
                 <div class="card-body">
                     <h6 class="card-title text-dark font-weight-bold">Company name</h6>
                     <a href="#" class="card-link text-danger">Read More<i class="fa-solid fa-angles-right ml-1"></i></a>
@@ -124,7 +115,7 @@
         </div>
         <div class="col-md-2">
             <div class="card" style="width:100%">
-                <img class="card-img-top card-header bg-primary" src="img/site-logo.png" alt="Card image cap">
+                <img class="card-img-top card-header bg-primary" src="images/site-logo.png" alt="Card image cap">
                 <div class="card-body">
                     <h6 class="card-title text-dark font-weight-bold">Company name</h6>
                     <a href="#" class="card-link text-danger">Read More<i class="fa-solid fa-angles-right ml-1"></i></a>
@@ -133,7 +124,7 @@
         </div>
         <div class="col-md-2">
             <div class="card" style="width:100%">
-                <img class="card-img-top card-header bg-primary" src="img/site-logo.png" alt="Card image cap">
+                <img class="card-img-top card-header bg-primary" src="images/site-logo.png" alt="Card image cap">
                 <div class="card-body">
                     <h6 class="card-title text-dark font-weight-bold">Company name</h6>
                     <a href="#" class="card-link text-danger">Read More<i class="fa-solid fa-angles-right ml-1"></i></a>
@@ -142,7 +133,16 @@
         </div>
         <div class="col-md-2">
             <div class="card" style="width:100%">
-                <img class="card-img-top card-header bg-primary" src="img/site-logo.png" alt="Card image cap">
+                <img class="card-img-top card-header bg-primary" src="images/site-logo.png" alt="Card image cap">
+                <div class="card-body">
+                    <h6 class="card-title text-dark font-weight-bold">Company name</h6>
+                    <a href="#" class="card-link text-danger">Read More<i class="fa-solid fa-angles-right ml-1"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card" style="width:100%">
+                <img class="card-img-top card-header bg-primary" src="images/site-logo.png" alt="Card image cap">
                 <div class="card-body">
                     <h6 class="card-title text-dark font-weight-bold">Company name</h6>
                     <a href="#" class="card-link text-danger">Read More<i class="fa-solid fa-angles-right ml-1"></i></a>
