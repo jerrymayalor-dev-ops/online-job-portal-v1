@@ -19,10 +19,15 @@ body {
 /* Sidebar */
 .col-md-2.sidebar-wrap.bg-dark{
   height: 579px;
-  max-width: 125px !important;
 }
 .sidebar-wrap li a{
   font-size: 12px !important;
+}
+
+.sidebar-wrap li a:hover{
+  background-color: #fff;
+  color: #000 !important;
+  
 }
 
 .hero{

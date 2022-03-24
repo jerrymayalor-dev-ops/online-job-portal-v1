@@ -5,7 +5,7 @@
 				<div class="col-md-4 col-sm-11 col-xs-11">
 					<div class="footer-text pull-left">
 						<div class="d-flex align-items-center">
-							<a class="" href="index.php"><img class="img mr-2" src="img/site-logo.png" alt="Card image cap"> 
+							<a class="" href="index.php"><img class="img mr-2" src="images/site-logo.png" alt="Card image cap"> 
 						</a>
 					</div>
 						<h5 class="text-muted mt-3">Online Municipal Job Opportunities</h5>

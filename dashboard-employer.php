@@ -6,7 +6,7 @@
 			<div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item ">
-                        <a class="nav-link" href="#">Name</a>
+                        <a class="nav-link" href="#">Employer</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/online-job-portal-v1/index.php">Logout</a>
@@ -16,7 +16,7 @@
 		</div>
 	</nav>
     <div class="d-flex">
-        <?php include 'includes/sidebar.php' ?>
+        <?php include 'includes/sidebar-employer.php' ?>
     </div>
 
 
