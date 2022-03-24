@@ -4,6 +4,7 @@ body {
   overflow-x: hidden;
   font-family: 'IBM Plex Sans', sans-serif;
   color: #505962;
+
 }
 
 /* Navbar */
@@ -11,36 +12,58 @@ body {
   width: 25%;
   height: 25%;
 }
+.header.navbar li a{
+  font-size: 12px !important;
+}
 
 /* Sidebar */
-/* .col-md-2.sidebar-wrap {
-  height: 768px;
-} */
+.col-md-2.sidebar-wrap.bg-dark{
+  height: 579px;
+  max-width: 125px !important;
+}
+.sidebar-wrap li a{
+  font-size: 12px !important;
+}
 
 .hero{
   background: linear-gradient(to top, rgba(53, 53, 53, .5), rgb(53, 53, 53, .5) ), url("img/hero-bg.jpg") no-repeat top center;
   width: 100%;
-  height: 750px; 
+  height: 550px; 
   background-size: cover;
 }
 
 .searchForm input, .searchForm button{
-  font-size: 18px;
+  font-size: 16px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 
 } 
 .searchForm input{
-  height: 75px;
-  width: 350px !important;
+  height: 60px;
+  width: 300px !important;
   border-radius: none !important;
 }
 
 .searchForm button{
-  height: 75px;
-  width: 200px;
+  height: 60px;
+  width: 150px;
   border:none;
 }
+
+/* Featured Jobs Section */
+
+.featuredJobs .card-body h6, .featuredJobs .card-body p, .featuredJobs .card-body a{
+  font-size: 14px;
+}
+
+/* Featured Companies Section */
+
+.featuredCompanies .card-body a{
+  font-size: 14px;
+}
+
+
+
 
 
 /* Footer */
@@ -94,5 +117,7 @@ body {
 .footer img{
   width: 25%;
 }
-
+.footer .btn.btn-danger{
+  font-size: 12px; 
+}
 
